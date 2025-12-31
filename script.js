@@ -6,5 +6,5 @@ const counter = document.querySelector("#counter")
 button.addEventListener('click',()=>{
 	alert(count)
 	count ++;
-	p.textContent = count
+	counter.textContent = count
 })
